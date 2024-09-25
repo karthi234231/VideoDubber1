@@ -7,7 +7,7 @@ export default function Home() {
   const [activePage, setActivePage] = useState('howItWorks'); // Default page is 'howItWorks'
   const [isOpen, setIsOpen] = useState(true); // Sidebar state
 
-  const handlePageChange = (page) => {
+  const handlePageChange = (page: string) => {
     setActivePage(page);
   };
 

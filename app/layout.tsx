@@ -1,7 +1,5 @@
-
 import { MantineProvider } from '@mantine/core';
 import './globals.css';
-
 
 export default function RootLayout({
   children,
@@ -11,7 +9,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <MantineProvider withGlobalStyles withNormalizeCSS>
+        <MantineProvider
+        // withGlobalStyles={true as any}
+        // withNormalizeCSS={true as any}
+        >
           {children}
         </MantineProvider>
       </body>
