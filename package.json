@@ -14,7 +14,8 @@
     "@tabler/icons-react": "^3.17.0",
     "next": "14.2.13",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "wavesurfer.js": "^7.8.6"
   },
   "devDependencies": {
     "@types/node": "^20",
